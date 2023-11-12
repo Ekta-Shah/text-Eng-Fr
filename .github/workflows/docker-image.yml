@@ -24,4 +24,4 @@ jobs:
       run: docker build . --file Dockerfile --tag ektashah30/text-translation:$(date +%s)
       
     - name: Docker Push
-      run: docker push ektashah30/text-translation:$(date +%s)
+      run: docker push ektashah30/text-translation
